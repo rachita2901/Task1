@@ -45,7 +45,9 @@ This repository contains the solution for the Cloud & DevOps Engineer Assessment
     
 4. Set up Monitoring:
    - Install Prometheus in your Kubernetes cluster. You can use Helm or apply the necessary configurations manually.
-   - Ensure the Prometheus configuration file is correctly set up to scrape metrics from your application.
+   - Add the Prometheus Helm chart repository:
+     helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+   - Install Prometheus:
 
 5. Access the Web Application:
    - Use 'kubectl' to get the external IP.
