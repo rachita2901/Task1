@@ -27,7 +27,7 @@ This repository contains the solution for the Cloud & DevOps Engineer Assessment
 ### Steps to Deploy
 
 1. Provision Cloud Infrastructure:
-   - Navigate to the `iac/` directory and initialize the Terraform environment:
+   - Navigate to the directory and initialize the Terraform environment:
       terraform init
    - Before applying the changes check any resoruces need to be created or modified
      terrafrom plan      
